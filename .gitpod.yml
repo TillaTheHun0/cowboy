@@ -3,3 +3,8 @@ image:
 
 tasks:
   - init: make
+
+ports:
+    - port: 3000-50000
+      visibility: public
+      onOpen: ignore
